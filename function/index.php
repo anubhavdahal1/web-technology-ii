@@ -26,5 +26,38 @@ function multiply($a,$b){
     $c=$a*$b;
     return $c;
 }
-welcome("anubhav");
+// welcome("anubhav");
+
+function addition(...$numbers)
+{
+    $sum = 0;
+    // var_dump($numbers);
+    foreach ($numbers as $number) {
+        $sum = $sum + $number;
+        echo $sum;
+        echo "<br>";
+    }
+    // return $sum;
+}
+// addition(2, 40, 50, 50, 3, 45);
+// $output = addition(2, 40, 50, 50, 3, 45);
+// echo $output;
+
+
+function callByValue($a)
+{
+    $a++;
+    echo "I am inside the function and the value of variable a inside the function is  " . $a;
+}
+function callByReference(&$a)
+{
+    $a++;
+    echo "I am inside the function and the value of variable a inside the function is  " . $a;
+}
+
+$a = 5;
+// callByValue($a);
+callByReference($a);
+echo "<br>";
+echo "I am outside the function and the value of a is  " . $a;
 ?>

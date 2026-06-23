@@ -36,4 +36,6 @@ function calculation($operation,$operand1,$operand2){
 // echo calculation("&",5,7);
 // Todo 
 // how to create a function which takes arbitary number of parameters 
+
+
 ?>
