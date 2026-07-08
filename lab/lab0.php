@@ -2,7 +2,7 @@
 // echo "I am IT student";
 
 
-/* $age=24;
+ $age=20;
 if($age<=12){
     echo "You are a child";
 }
@@ -10,11 +10,11 @@ else if($age>12 &&$age<=19){
     echo "You are teenager";
 }
 else if($age>19 &&$age<=40){
-    echo "You are as adult as Mr Dan Bahadur Adhikari";
+    echo "You are as adult as Mr anubhav dahal";
 }
 else{
     echo "You are as old as Ronaldo and you might recall spain ";
-} */
+} 
 
 
 /*
@@ -27,7 +27,7 @@ else{
     }
     echo "<br>";
    } 
-    */
+  */  
 
 /*    model question Qn:17 
 syntax:
@@ -36,11 +36,11 @@ body of a function
 } 
 Example: Function to add Two numbers and display the result;
 */
-function add(){
-    $a=5;
-    $b=3;
-    $result=$a+$b;
-    echo "The sum of $a and $b = $result";
-}
-add();
+// function add(){
+//     $a=5;
+//     $b=3;
+//     $result=$a+$b;
+//     echo "The sum of $a and $b = $result";
+// }
+// add();
 ?>
