@@ -23,3 +23,4 @@ $newproductsAssoc[] = [
   print_r($newproductsAssoc);
 
 ?>
+
