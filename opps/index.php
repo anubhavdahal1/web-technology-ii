@@ -36,7 +36,7 @@ class introduction{
 }
 
 $obj=new introduction();
-$obj->name="Dan Bahadur Adhikari";
+$obj->name="anubhav dahal";
 $obj->subject="Web Technology";
 $obj->greet();
 
