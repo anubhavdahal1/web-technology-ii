@@ -1,5 +1,6 @@
 <?php
-// Interfaces 
+// Interfaces
+ 
 // syntax:
 interface InterfaceName
 {
