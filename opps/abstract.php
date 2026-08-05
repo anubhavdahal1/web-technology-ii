@@ -1,6 +1,6 @@
 <?php
-// ## Abstract Class
-syntax:
+## Abstract Class
+// syntax:
 abstract class ClassName
 {
     abstract public function methodName();
