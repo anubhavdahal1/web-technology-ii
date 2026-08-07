@@ -1,7 +1,6 @@
 <?php
 /*
 
-
 Syntax:
 class ParentClass
 {
@@ -17,6 +16,7 @@ class ChildClass extends ParentClass
 Example:
 
 // Parent Class
+
 class Person
 {
     public $name = "Anubhav";
@@ -45,8 +45,8 @@ $student->displayFaculty();
 
 
 
-
 1. Single Inheritance:
+*/
 class Person
 {
     public function introduce()
@@ -67,9 +67,12 @@ $obj = new Student();
 
 $obj->introduce();
 $obj->study();
+/*
+
+
 
 2. Multilevel Inheritance
-
+*/
 class Person
 {
     public function introduce()
@@ -101,11 +104,11 @@ $obj->study();
 $obj->monitorClass();
 $obj2= new student();
 
-
+/*
 3. Hierarchical Inheritance
 Example:
 
-
+*/
 class Person
 {
     public function introduce()
@@ -142,7 +145,7 @@ $teacher->introduce();
 $teacher->teach();
 
 
-
+/*
 
 4. Multiple Inheritance (Not Supported Directly)
 5. Hybrid Inheritance (Not Supported Directly)
